@@ -1,0 +1,29 @@
+<div>
+  <label for="resultado">Calculadora</label>
+  <br />
+  <input type="text" [(ngModel)]="resultado" />
+  <br>
+  <input type="button" value="1" (click)=um()>
+  <input type="button" value="2" (click)=dois()>
+  <input type="button" value="3" (click)=tres()>
+  <br>
+  <input type="button" value="4" (click)=quatro()>
+  <input type="button" value="5" (click)=cinco()>
+  <input type="button" value="6" (click)=seis()>
+  <br>
+  <input type="button" value="7" (click)=sete()>
+  <input type="button" value="8" (click)=oito()>
+  <input type="button" value="9" (click)=nove()>
+  <br>
+  <input type="button" value="0" (click)=zero()>
+  <br>
+  <br>
+  <input type="button" value="+" (click)=somar()>
+  <input type="button" value="-" (click)=subtrair()>
+  <input type="button" value="/" (click)=divisao()>
+  <input type="button" value="x" (click)=multiplicacao()>
+  <br>
+  <br>
+  <input type="button" value="Limpar" (click)=limpar()>
+</div>
+
