@@ -1,13 +1,9 @@
 <div>
+  <p>
   <label for="resultado">Calculadora</label>
   <br />
-  <input type="text" [(ngModel)]="digitop" />
-  <br>
-  <br />
-  <input type="text" [(ngModel)]="digitos" />
-  <br>
-  <br />
   <input type="text" [(ngModel)]="resultado" />
+  <br>
   <br>
   <input type="button" value="1" (click)=um()>
   <input type="button" value="2" (click)=dois()>
@@ -28,8 +24,10 @@
   <input type="button" value="-" (click)=subtrair()>
   <input type="button" value="/" (click)=divisao()>
   <input type="button" value="x" (click)=multiplicacao()>
+  <input type="button" value="=" (click)=igual()>
   <br>
   <br>
   <input type="button" value="Limpar" (click)=limpar()>
+  </p>
 </div>
 
